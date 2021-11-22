@@ -62,7 +62,6 @@ class PhoneBook
 private:
     vector<pair<Person, PhoneNumber>> contacts;
 public:
-    PhoneBook();
     PhoneBook(ifstream &file_book);
     ~PhoneBook();
    friend ostream& operator<< (ostream &out, const PhoneBook &phone_book);
@@ -71,56 +70,40 @@ public:
     tuple<string, PhoneNumber> GetPhoneNumber(const string &find_surename);
     void ChangePhoneNumber(const Person& find_person, const PhoneNumber& new_number);
 };
-
-PhoneBook::PhoneBook()
-{
-    Person p1 {"kiselev", "ilia", "aleksandrovich"};
-    PhoneNumber pn2 {7, 999, "7941579"};
-    contacts.push_back(make_pair(p1, pn2));
-}
     
 PhoneBook::PhoneBook(ifstream &file_book)
 {
-    cout << "created phone book\n";
-    if (file_book.is_open())
+    while (!file_book.eof())
     {
-        cout << "file is open\n";
-        while (!file_book.eof())
+        Person new_person;
+        PhoneNumber new_number;
+        string temp_patronymic;
+        string temp_extension_number;
+
+        file_book >> new_person.surname >> new_person.name >> temp_patronymic 
+            >> new_number.country_code >> new_number.city_code >> new_number.phone_number >> temp_extension_number;
+
+        if (temp_patronymic == "-")
         {
-            Person new_person;
-            PhoneNumber new_number;
-            string temp_patronymic;
-            string temp_extension_number;
-
-            file_book >> new_person.surname >> new_person.name >> temp_patronymic 
-                >> new_number.country_code >> new_number.city_code >> new_number.phone_number >> temp_extension_number;
-
-            if (temp_patronymic == "-")
-            {
-                new_person.patronymic = nullopt;
-            }
-            else
-            {
-                new_person.patronymic = temp_patronymic;
-            }
-
-            if (temp_extension_number == "-")
-            {
-                new_number.extension_number = nullopt;
-            }
-            else
-            {
-                new_number.extension_number = stoi(temp_extension_number);
-            }
-
-            contacts.push_back(make_pair(new_person, new_number));
+            new_person.patronymic = nullopt;
         }
-        file_book.close();
+        else
+        {
+            new_person.patronymic = temp_patronymic;
+        }
+
+        if (temp_extension_number == "-")
+        {
+            new_number.extension_number = nullopt;
+        }
+        else
+        {
+            new_number.extension_number = stoi(temp_extension_number);
+        }
+
+        contacts.push_back(make_pair(new_person, new_number));
     }
-    else
-    {
-        cout << "FILE READ ERROR\n";
-    }
+    file_book.close();
 }
 
 PhoneBook::~PhoneBook()
@@ -159,8 +142,6 @@ tuple<string, PhoneNumber> PhoneBook::GetPhoneNumber(const string &find_surename
             }
         });
 
-    auto answer = make_tuple(masseg, answer_namber);
-
     if (counter == 0)
     {
         masseg = "not found";
@@ -169,6 +150,7 @@ tuple<string, PhoneNumber> PhoneBook::GetPhoneNumber(const string &find_surename
     {
         masseg = "found more than 1";
     }
+    auto answer = make_tuple(masseg, answer_namber);
     return answer;
 }
 
@@ -192,16 +174,18 @@ ostream& operator<< (ostream &out, const PhoneBook &phone_book)
 
 int main() 
 {
-    Person p1 {"kiselev", "ilia", "aleksandrovich"};
-    PhoneNumber pn1 {7, 999, "7941579", 12};
-    Person p2 {"kiselev", "ilia", "olegovich"};
-    PhoneNumber pn2 {7, 999, "7941579"};
-
-    cout << boolalpha << (p1 < p2) << endl;
-    cout  << p1 << "\t" << pn1 << endl;
-    cout  << p2 << "\t" << pn2 << endl;
-
     ifstream file ("PhoneBook.txt"); // путь к файлу PhoneBook.txt
+    try
+    {
+        if (!file.is_open())
+            throw "file \"PhoneBook.txt\" not found";
+    }
+    catch(const char* exception)
+    {
+        cerr << "ERROR: " << exception << endl;
+        return 1;
+    }
+    
     PhoneBook book(file);
     cout << book;
    
