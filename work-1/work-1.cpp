@@ -29,15 +29,15 @@ ostream& operator<< (ostream &out, const Person &person)
 }
 
 // Перегрузка оператора < для Persone
-bool operator< (const Person &person1, const Person &person2)
+bool operator< (const Person &left, const Person &right)
 {
-    return tie(person1.surname, person1.name, person1.patronymic) < tie(person2.surname, person2.name, person2.patronymic);
+    return tie(left.surname, left.name, left.patronymic) < tie(right.surname, right.name, right.patronymic);
 }
 
 // Перегрузка оператора == для Persone
-bool operator== (const Person &person1, const Person &person2)
+bool operator== (const Person &left, const Person &right)
 {
-    return tie(person1.surname, person1.name, person1.patronymic) == tie(person2.surname, person2.name, person2.patronymic);
+    return tie(left.surname, left.name, left.patronymic) == tie(right.surname, right.name, right.patronymic);
 }
 
 struct  PhoneNumber
@@ -126,16 +126,16 @@ void PhoneBook::SortByPhone()
             < tie(contact2.second.country_code, contact2.second.city_code, contact2.second.phone_number, contact2.second.extension_number); } );
 }
 
-tuple<string, PhoneNumber> PhoneBook::GetPhoneNumber(const string &find_surename)
+tuple<string, PhoneNumber> PhoneBook::GetPhoneNumber(const string &target_surename)
 {
     uint16_t counter = 0;
     PhoneNumber answer_namber;
     string masseg;
 
     for_each(contacts.begin(), contacts.end(),
-        [&counter, find_surename, &answer_namber](const auto& contact)
+        [&counter, target_surename, &answer_namber](const auto& contact)
         {
-            if (contact.first.surname == find_surename)
+            if (contact.first.surname == target_surename)
             {
                 answer_namber = contact.second;
                 counter++;
@@ -150,16 +150,16 @@ tuple<string, PhoneNumber> PhoneBook::GetPhoneNumber(const string &find_surename
     {
         masseg = "found more than 1";
     }
-    auto answer = make_tuple(masseg, answer_namber);
-    return answer;
+    return make_tuple(masseg, answer_namber);
 }
 
-void PhoneBook::ChangePhoneNumber(const Person& find_person, const PhoneNumber& new_number)
+void PhoneBook::ChangePhoneNumber(const Person& target_person, const PhoneNumber& new_number)
 {
     vector<pair<Person, PhoneNumber>>::iterator it = find_if(contacts.begin(), contacts.end(), [&](const auto& contact){
-        return (contact.first == find_person);
+        return (contact.first == target_person);
     });
-    (*it).second = new_number;
+    if (it != contacts.end())
+        (*it).second = new_number;
 }
 
 // Перегрузка оператора << для PhoneBook
