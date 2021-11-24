@@ -47,6 +47,67 @@ public:
     }
 };
 
+uint64_t count_if_and_find (const string& book, const string& simbols)
+{
+    Timer timer ("count_if & find");
+    uint64_t counter {0};
+
+    counter = count_if(book.begin(), book.end(), [&simbols](const char curent)
+                                                            { return simbols.find(curent) != simbols.npos; });
+    timer.print();
+    return counter;
+}
+
+uint64_t count_if_and_for (const string& book, const string& simbols)
+{
+    Timer timer ("count_if & for");
+    uint64_t counter {0};
+
+    counter = count_if(book.begin(), book.end(), [&simbols](const char curent)
+                                                            { for (const char& target : simbols)
+                                                                {
+                                                                    if ( curent == target)
+                                                                        return true;
+                                                                } return false; });
+    timer.print();
+    return counter;
+}
+
+uint64_t for_and_find (const string& book, const string& simbols)
+{
+    Timer timer ("for & find");
+    uint64_t counter {0};
+
+    for (const char& curent : book)
+    {
+        if ( simbols.find(curent) != simbols.npos)
+            ++counter;
+    }
+
+    timer.print();
+    return counter;
+}
+
+uint64_t for_and_for (const string& book, const string& simbols)
+{
+    uint64_t counter {0};
+    Timer timer ("for & for");
+
+    for (const char& curent : book)
+    {
+        for (const char& target : simbols)
+        {
+            if ( curent == target)
+            {
+                ++counter;
+                break;
+            }
+        }
+    }
+    timer.print();
+    return counter;
+}
+
 int main()
 {
     // Check Task-1
@@ -134,51 +195,19 @@ int main()
     file.read(&book[0], size);
 
     // searching by using 'count_if' and 'find'
-    Timer timer1 ("count_if & find");
-
-    counter = count_if(book.begin(), book.end(), [&vowels](const char curent)
-                                                            { return vowels.find(curent) != vowels.npos; });
-    timer1.print();
+    counter = count_if_and_find(book, vowels);
     cout << "vowels found: " << counter << endl;
 
     // searching by using 'count_if' and 'for'
-    counter  = 0;
-    Timer timer2 ("count_if & for");
-
-    counter = count_if(book.begin(), book.end(), [&vowels](const char curent)
-                                                            { for (const char& target : vowels)
-                                                                {
-                                                                    if ( curent == target)
-                                                                        return true;
-                                                                } return false; });
-    timer2.print();
+    counter  = count_if_and_for(book, vowels);
     cout << "vowels found: " << counter << endl;
     
     // searching by using 'for' and 'find'
-    counter  = 0;
-    Timer timer3 ("for & find");
-
-    for (const char& curent : book)
-    {
-        if ( vowels.find(curent) != vowels.npos)
-            ++counter;
-    }
-    timer3.print();
+    counter  = for_and_find(book, vowels);
     cout << "vowels found: " << counter << endl;
 
     // searching by using 'for' and 'for'
-    counter = 0;
-    Timer timer4 ("for & for");
-
-    for (const char& curent : book)
-    {
-        for (const char& target : vowels)
-        {
-            if ( curent == target)
-                ++counter;
-        }
-    }
-    timer4.print();
+    counter = for_and_for(book, vowels);
     cout << "vowels found: " << counter << endl;
 }
     return 0;
