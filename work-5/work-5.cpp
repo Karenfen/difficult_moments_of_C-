@@ -14,17 +14,33 @@
 template<typename ITER>
 void uniqueWordList(ITER it, ITER end)
 {
-    // создаём временную мапу, отсортированную по алфавиту, где ключ - это слово, а значение - колличество повторений.
-    std::map<std::string, int> temp_map;
-    for (; it != end ; ++it)
-    {
-        ++temp_map[*it];  // создаём элемент, если такого ключа нет и увеличиваем значение 
-    }
+  // создаём временную мапу, отсортированную по алфавиту, где ключ - это слово, а значение - колличество повторений.
+  std::map<std::string, int> temp_map;
+  for (; it != end ; ++it)
+  {
+      ++temp_map[*it];  // создаём элемент, если такого ключа нет и увеличиваем значение 
+  }
 
-    for (const auto& [word, counter] : temp_map)
+  std::vector<std::pair<std::string, int>> temp_vec;
+
+  for (const auto& [word, counter] : temp_map)
+  {
+      temp_vec.push_back(std::make_pair(word, counter));
+      std::cout << std::setw(10) << word << "\t" << counter << std::endl; // выводим строки по алфавиту и счетчик их появления в тексте
+  }
+
+  std::sort(temp_vec.begin(), temp_vec.end(), 
+    [](const auto& left, const auto& right){
+      return (left.second > right.second);
+    });
+
+    std::cout << " sort by counter\n";
+
+    for (const auto& [word, counter] : temp_vec)
     {
-        std::cout << std::setw(10) << word << "\t" << counter << std::endl; // выводим строки по алфавиту и счетчик их появления в тексте
+      std::cout << std::setw(10) << word << "\t" << counter << std::endl;
     }
+    
 }
 
 // Функция для второго задания
@@ -61,8 +77,8 @@ int main()
     std::cout << "\t... TASK - 1 ...\n";
 
   {
-    std::list<std::string> words_vec {"word", "hello", "world", "hello", "intel", "book", "book"};
-    std::list<std::string> words_lst {"children", "prince", "country", "country", "children", "children", "father"};
+    std::list<std::string> words_vec {"word", "hello", "world", "hello", "world", "world", "intel", "book", "book"};
+    std::list<std::string> words_lst {"children", "prince", "country", "country", "children", "children", "father", "father", "father"};
     
     std::cout << " Words in vector:\n";
     uniqueWordList(words_vec.begin(), words_vec.end());
