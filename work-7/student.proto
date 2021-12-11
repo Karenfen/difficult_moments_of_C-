@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import public "fullName.proto";
+
+
+message Student
+{
+	Fullname full_name = 1;
+	repeated uint32 scores = 2 [packed = true];
+	float average_score = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message Fullname
+{
+	string name = 1;
+	string surname = 2;
+	optional string patronymic = 3;
+}
