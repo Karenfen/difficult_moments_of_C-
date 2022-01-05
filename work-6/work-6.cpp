@@ -102,19 +102,19 @@ uint64_t get_prime_numb(size_t target)
 }
 
 // хозяин приносит домой вещи разной стоимости
-void owner(std::vector<int>& hous)
+void owner(std::vector<int>& house)
 {
     // приносит вещи пока дом не пуст или пока не заполнен
-    while (!hous.empty() && hous.size() < CAPASITY)  
+    while (!house.empty() && house.size() < CAPASITY)  
     {
         int thing{ rand() % 10000 };
 
         // эта проверка нужна была для полиции
         if (m_mutex.try_lock())
         {
-            hous.push_back(thing);
+            house.push_back(thing);
             std::cout << " the owner brought home a thing at a price: " << thing << std::endl;
-            std::copy(hous.begin(), hous.end(), std::ostream_iterator<int>(std::cout, " "));
+            std::copy(house.begin(), house.end(), std::ostream_iterator<int>(std::cout, " "));
             pcout << "\n";
             m_mutex.unlock();
         }
