@@ -23,6 +23,7 @@ void uniqueWordList(ITER it, ITER end)
 
   std::vector<std::pair<std::string, int>> temp_vec;
 
+
   for (const auto& [word, counter] : temp_map)
   {
       temp_vec.push_back(std::make_pair(word, counter));
