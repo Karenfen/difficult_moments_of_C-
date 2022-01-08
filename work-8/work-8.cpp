@@ -291,7 +291,7 @@ TEST(Test_Persone, print)
     ASSERT_STREQ(cout.str().c_str(), "        Kiselev           Ilia      Aleksandrovich");
 }
 
-TEST(Test_Persone, data)
+TEST(Test_Persone, set_data)
 {
     Person pers1{ "Kiselev", "Ilia" };
 
@@ -309,7 +309,7 @@ TEST(Test_Persone, data)
     ASSERT_FALSE(pers1.patronymic == std::nullopt);
 }
 
-TEST(Test_PhoneNumber, data)
+TEST(Test_PhoneNumber, set_data)
 {
     PhoneNumber number{ 7, 999, "7951479" };
 
@@ -345,7 +345,7 @@ TEST(Test_PhoneNumber, print)
     ASSERT_STREQ(cout.str().c_str(), "+7(999)7951479 12");
 }
 
-TEST_F(testPhoneBook, exeptions)
+TEST_F(testPhoneBook, exceptions)
 {
     std::ifstream file{ "speed_test.txt" };
 
@@ -357,6 +357,9 @@ TEST_F(testPhoneBook, exeptions)
     ASSERT_NO_THROW(new_book = new PhoneBook(file));
 
     file.close();
+
+    new_book = nullptr;
+    delete new_book;
 
 
     ASSERT_NO_THROW(book->SortByName());
@@ -471,16 +474,21 @@ TEST(test_PhoneBook, time)
 
     PhoneBook* book = new PhoneBook(file);
 
-    timer.print();
     file.close();
+    //timer.print();
+    ASSERT_FALSE(timer.getTime() > 1.0);
+    
+
 
     timer.start("sort by name");
     book->SortByName();
-    timer.print();
+    //timer.print();
+    ASSERT_FALSE(timer.getTime() > 1.0);
 
     timer.start("sort by phone");
     book->SortByPhone();
-    timer.print();
+    //timer.print();
+    ASSERT_FALSE(timer.getTime() > 1.0);
 
     delete book;
 }
