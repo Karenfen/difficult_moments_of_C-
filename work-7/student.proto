@@ -2,6 +2,7 @@ syntax = "proto3";
 
 import public "fullName.proto";
 
+package students;
 
 message Student
 {
