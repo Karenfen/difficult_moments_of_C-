@@ -1,0 +1,3 @@
+﻿  work-8.cpp
+gmock_maind.lib(gtest-all.obj) : warning LNK4099: "gmock_maind.pdb" PDB не найден с "gmock_maind.lib(gtest-all.obj)" или на "C:\Users\mybut\Desktop\work-8\x64\Debug\gmock_maind.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  work-8.vcxproj -> C:\Users\mybut\Desktop\work-8\x64\Debug\work-8.exe

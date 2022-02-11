@@ -1,0 +1,8 @@
+﻿  fullName.pb.cc
+C:\Users\mybut\Desktop\work-7\fullName.pb.h(10,10): fatal error C1083: Не удается открыть файл включение: google/protobuf/port_def.inc: No such file or directory,
+  student.pb.cc
+C:\Users\mybut\Desktop\work-7\student.pb.h(10,10): fatal error C1083: Не удается открыть файл включение: google/protobuf/port_def.inc: No such file or directory,
+  studentsGroup.pb.cc
+C:\Users\mybut\Desktop\work-7\studentsGroup.pb.h(10,10): fatal error C1083: Не удается открыть файл включение: google/protobuf/port_def.inc: No such file or directory,
+  work-7.cpp
+C:\Users\mybut\Desktop\work-7\studentsGroup.pb.h(10,10): fatal error C1083: Не удается открыть файл включение: google/protobuf/port_def.inc: No such file or directory,

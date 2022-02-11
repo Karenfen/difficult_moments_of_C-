@@ -1,0 +1,5008 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::strings::AlphaNum::digits\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/stubs/strutil.h"
+                },
+                "region": {
+                  "startLine": 656,
+                  "startColumn": 3,
+                  "endLine": 656,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AlphaNum@strings@protobuf@google@@QEAA@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::strings::AlphaNum::digits"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::strings::AlphaNum::digits\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/stubs/strutil.h"
+                },
+                "region": {
+                  "startLine": 661,
+                  "startColumn": 3,
+                  "endLine": 661,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AlphaNum@strings@protobuf@google@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::strings::AlphaNum::digits"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::strings::AlphaNum::digits\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/stubs/strutil.h"
+                },
+                "region": {
+                  "startLine": 664,
+                  "startColumn": 3,
+                  "endLine": 664,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AlphaNum@strings@protobuf@google@@QEAA@VStringPiece@stringpiece_internal@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::strings::AlphaNum::digits"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::io::EpsCopyOutputStream::buffer_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/io/coded_stream.h"
+                },
+                "region": {
+                  "startLine": 663,
+                  "startColumn": 3,
+                  "endLine": 663,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyOutputStream@io@protobuf@google@@QEAA@PEAVZeroCopyOutputStream@123@_NPEAPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::io::EpsCopyOutputStream::buffer_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::io::EpsCopyOutputStream::buffer_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/io/coded_stream.h"
+                },
+                "region": {
+                  "startLine": 674,
+                  "startColumn": 3,
+                  "endLine": 674,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyOutputStream@io@protobuf@google@@QEAA@PEAXH_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::io::EpsCopyOutputStream::buffer_"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::internal::WireFormatLite::FieldType\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/wire_format_lite.h"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 42,
+                  "endLine": 153,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WireTypeForFieldType@WireFormatLite@internal@protobuf@google@@SA?AW4WireType@1234@W4FieldType@1234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::internal::WireFormatLite::WireType\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/wire_format_lite.h"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 5,
+                  "endLine": 155,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WireTypeForFieldType@WireFormatLite@internal@protobuf@google@@SA?AW4WireType@1234@W4FieldType@1234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::internal::WireFormatLite::CppType\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/wire_format_lite.h"
+                },
+                "region": {
+                  "startLine": 781,
+                  "startColumn": 3,
+                  "endLine": 781,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?FieldTypeToCppType@WireFormatLite@internal@protobuf@google@@SA?AW4CppType@1234@W4FieldType@1234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::EpsCopyInputStream::limit_end_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 3,
+                  "endLine": 112,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyInputStream@internal@protobuf@google@@QEAA@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::EpsCopyInputStream::limit_end_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::EpsCopyInputStream::size_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 3,
+                  "endLine": 112,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyInputStream@internal@protobuf@google@@QEAA@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::EpsCopyInputStream::size_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::EpsCopyInputStream::limit_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 3,
+                  "endLine": 112,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyInputStream@internal@protobuf@google@@QEAA@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::EpsCopyInputStream::limit_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::EpsCopyInputStream::next_chunk_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 3,
+                  "endLine": 112,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyInputStream@internal@protobuf@google@@QEAA@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::EpsCopyInputStream::next_chunk_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::EpsCopyInputStream::buffer_end_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 3,
+                  "endLine": 112,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyInputStream@internal@protobuf@google@@QEAA@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::EpsCopyInputStream::buffer_end_"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::internal::EpsCopyInputStream::<unnamed-enum-kNoAliasing>\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 19,
+                  "endLine": 113,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EpsCopyInputStream@internal@protobuf@google@@QEAA@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+                },
+                "region": {
+                  "startLine": 593,
+                  "startColumn": 16,
+                  "endLine": 593,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ParseBigVarint@internal@protobuf@google@@YAPEBDPEBDPEA_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::containing_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::containing_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::enum_types_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::enum_types_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::fields_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::fields_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::extensions_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::extensions_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::extension_ranges_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::extension_ranges_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::full_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::full_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::file_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::file_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::nested_types_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::nested_types_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::oneof_decls_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::oneof_decls_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::reserved_ranges_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::reserved_ranges_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::reserved_names_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::reserved_names_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::field_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::field_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::oneof_decl_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::oneof_decl_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::real_oneof_decl_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::real_oneof_decl_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::nested_type_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::nested_type_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::enum_type_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::enum_type_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::extension_range_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::extension_range_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::extension_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::extension_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::reserved_range_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::reserved_range_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::reserved_name_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::reserved_name_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::is_placeholder_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::is_placeholder_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::is_unqualified_placeholder_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::is_unqualified_placeholder_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::Descriptor::well_known_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 3,
+                  "endLine": 565,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Descriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::Descriptor::well_known_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::json_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::json_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::type_once_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::type_once_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::file_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::file_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::lowercase_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::lowercase_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::full_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::full_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::camelcase_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::camelcase_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::label_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::label_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::has_default_value_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::has_default_value_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::proto3_optional_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::proto3_optional_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::has_json_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::has_json_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::is_extension_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::is_extension_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::number_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::number_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::index_in_oneof_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::index_in_oneof_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::containing_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::containing_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::containing_oneof_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::containing_oneof_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::extension_scope_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::extension_scope_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::message_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::message_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::enum_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::enum_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::type_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::type_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::default_value_enum_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::default_value_enum_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_int32_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_int32_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_int64_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_int64_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_uint32_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_uint32_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_uint64_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_uint64_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_float_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_float_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_double_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_double_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_bool_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_bool_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_enum_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_enum_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_string_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 923,
+                  "startColumn": 3,
+                  "endLine": 923,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FieldDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_string_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::OneofDescriptor::containing_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1003,
+                  "startColumn": 3,
+                  "endLine": 1003,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0OneofDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::OneofDescriptor::containing_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::OneofDescriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1003,
+                  "startColumn": 3,
+                  "endLine": 1003,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0OneofDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::OneofDescriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::OneofDescriptor::fields_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1003,
+                  "startColumn": 3,
+                  "endLine": 1003,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0OneofDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::OneofDescriptor::fields_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::OneofDescriptor::field_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1003,
+                  "startColumn": 3,
+                  "endLine": 1003,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0OneofDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::OneofDescriptor::field_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::OneofDescriptor::full_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1003,
+                  "startColumn": 3,
+                  "endLine": 1003,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0OneofDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::OneofDescriptor::full_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::OneofDescriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1003,
+                  "startColumn": 3,
+                  "endLine": 1003,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0OneofDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::OneofDescriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::file_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::file_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::is_unqualified_placeholder_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::is_unqualified_placeholder_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::containing_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::containing_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::full_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::full_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::values_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::values_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::is_placeholder_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::is_placeholder_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::reserved_range_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::reserved_range_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::value_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::value_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::reserved_name_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::reserved_name_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::reserved_ranges_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::reserved_ranges_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumDescriptor::reserved_names_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1153,
+                  "startColumn": 3,
+                  "endLine": 1153,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumDescriptor::reserved_names_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumValueDescriptor::number_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1236,
+                  "startColumn": 3,
+                  "endLine": 1236,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumValueDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumValueDescriptor::number_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumValueDescriptor::type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1236,
+                  "startColumn": 3,
+                  "endLine": 1236,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumValueDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumValueDescriptor::type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumValueDescriptor::full_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1236,
+                  "startColumn": 3,
+                  "endLine": 1236,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumValueDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumValueDescriptor::full_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumValueDescriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1236,
+                  "startColumn": 3,
+                  "endLine": 1236,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumValueDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumValueDescriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::EnumValueDescriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1236,
+                  "startColumn": 3,
+                  "endLine": 1236,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EnumValueDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::EnumValueDescriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::ServiceDescriptor::full_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1317,
+                  "startColumn": 3,
+                  "endLine": 1317,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ServiceDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::ServiceDescriptor::full_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::ServiceDescriptor::file_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1317,
+                  "startColumn": 3,
+                  "endLine": 1317,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ServiceDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::ServiceDescriptor::file_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::ServiceDescriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1317,
+                  "startColumn": 3,
+                  "endLine": 1317,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ServiceDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::ServiceDescriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::ServiceDescriptor::methods_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1317,
+                  "startColumn": 3,
+                  "endLine": 1317,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ServiceDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::ServiceDescriptor::methods_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::ServiceDescriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1317,
+                  "startColumn": 3,
+                  "endLine": 1317,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ServiceDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::ServiceDescriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::ServiceDescriptor::method_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1317,
+                  "startColumn": 3,
+                  "endLine": 1317,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ServiceDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::ServiceDescriptor::method_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::service_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::service_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::client_streaming_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::client_streaming_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::output_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::output_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::input_type_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::input_type_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::full_name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::full_name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::server_streaming_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::server_streaming_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::MethodDescriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 3,
+                  "endLine": 1405,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MethodDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::MethodDescriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::weak_dependencies_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::weak_dependencies_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::finished_building_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::finished_building_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::is_placeholder_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::is_placeholder_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::syntax_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::syntax_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::services_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::services_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::enum_type_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::enum_type_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::message_type_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::message_type_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::public_dependencies_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::public_dependencies_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::public_dependency_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::public_dependency_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::weak_dependency_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::weak_dependency_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::dependencies_names_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::dependencies_names_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::tables_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::tables_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::options_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::options_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::message_types_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::message_types_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::enum_types_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::enum_types_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::dependencies_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::dependencies_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::dependency_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::dependency_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::dependencies_once_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::dependencies_once_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::package_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::package_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::extensions_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::extensions_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::pool_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::pool_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::name_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::name_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::extension_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::extension_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::service_count_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::service_count_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::FileDescriptor::source_code_info_\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 3,
+                  "endLine": 1594,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FileDescriptor@protobuf@google@@AEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::FileDescriptor::source_code_info_"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::DescriptorPool::ErrorCollector::ErrorLocation\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 1760,
+                  "startColumn": 18,
+                  "endLine": 1760,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddWarning@ErrorCollector@DescriptorPool@protobuf@google@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBVMessage@34@W4ErrorLocation@1234@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::FieldDescriptor::Label\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 2036,
+                  "startColumn": 1,
+                  "endLine": 2036,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?label@FieldDescriptor@protobuf@google@@QEBA?AW4Label@123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::Descriptor::WellKnownType\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 2122,
+                  "startColumn": 3,
+                  "endLine": 2122,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?well_known_type@Descriptor@protobuf@google@@QEBA?AW4WellKnownType@123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::FieldDescriptor::Type\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 2171,
+                  "startColumn": 3,
+                  "endLine": 2171,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?type@FieldDescriptor@protobuf@google@@QEBA?AW4Type@123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::FileDescriptor::Syntax\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 2196,
+                  "startColumn": 11,
+                  "endLine": 2196,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?has_optional_keyword@FieldDescriptor@protobuf@google@@QEBA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::FieldDescriptor::CppType\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+                },
+                "region": {
+                  "startLine": 2208,
+                  "startColumn": 10,
+                  "endLine": 2208,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?has_presence@FieldDescriptor@protobuf@google@@QEBA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::UnknownField::Type\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/unknown_field_set.h"
+                },
+                "region": {
+                  "startLine": 342,
+                  "startColumn": 3,
+                  "endLine": 342,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?type@UnknownField@protobuf@google@@QEBA?AW4Type@123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/generated_message_reflection.h"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetFieldOffset@ReflectionSchema@internal@protobuf@google@@QEBAIPEBVFieldDescriptor@34@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::<unnamed-tag>::enum_validity_check\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 3,
+                  "endLine": 101,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::<unnamed-tag>::enum_validity_check"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::descriptor\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 3,
+                  "endLine": 101,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::descriptor"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::is_repeated\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 3,
+                  "endLine": 101,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::is_repeated"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::is_packed\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 3,
+                  "endLine": 101,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::is_packed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::type\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 3,
+                  "endLine": 101,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::<unnamed-tag>::message_info\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 3,
+                  "endLine": 101,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::<unnamed-tag>::message_info"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::<unnamed-tag>::enum_validity_check\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 3,
+                  "endLine": 102,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@E_N0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::<unnamed-tag>::enum_validity_check"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"google::protobuf::internal::ExtensionInfo::<unnamed-tag>::message_info\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 3,
+                  "endLine": 102,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtensionInfo@internal@protobuf@google@@QEAA@E_N0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "google::protobuf::internal::ExtensionInfo::<unnamed-tag>::message_info"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"google::protobuf::internal::WireFormat::Operation\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/wire_format.h"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 25,
+                  "endLine": 356,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?VerifyUTF8String@WireFormat@internal@protobuf@google@@SAXPEBDHW4Operation@1234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30037.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x004CC1C0 -il C:\\Users\\mybut\\AppData\\Local\\Temp\\_CL_25fcd3f3ast -typedil -f fullName.pb.cc -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930037 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\.conan\\4edcf5\\1\\include -I C:\\Users\\mybut\\.conan\\data\\zlib\\1.2.11\\_\\_\\package\\d057732059ea44a47760900cb5e4855d2bea8714\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\fullName.pb.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\mybut\\Desktop\\work-7 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/stubs/strutil.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "aee7c30c23145b6f95389ea46de01331"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/io/coded_stream.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f4fb8f1baefb87bdadfb0cd863c05018"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/wire_format_lite.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9c889f4a3708cade3d31d3f984335156"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/parse_context.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d90b2eafbec750f29fc979f6ddc6e456"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/descriptor.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "1caeed6ae0b030a1bcf8f410ade4548c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/unknown_field_set.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "177a923d5187a74a16229b37fc829e61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/generated_message_reflection.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "e3b608f4ece7e66ca7df8604b01baf6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/extension_set.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c688ebb1a8bea9600c220ba639900936"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/repeated_field.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "cefa9a15d99b6147e350598b63ed933b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mybut/desktop/work-7/work-7.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6c9b2b7dae1175a215813715aa3ebab2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mybut/desktop/work-7/studentsgroup.pb.h"
+          },
+          "hashes": {
+            "md5": "9dee9ffa28154e88564406d104b36095"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/port_def.inc"
+          },
+          "hashes": {
+            "md5": "a33f69fe6d08c7b1e1e1009c4b4d8985"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/port_undef.inc"
+          },
+          "hashes": {
+            "md5": "748cdb6e861fff5e02f2fb76ba3ba6cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/common.h"
+          },
+          "hashes": {
+            "md5": "44cbe4ffcac74557564b315e61eaafa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/macros.h"
+          },
+          "hashes": {
+            "md5": "5c4ae05d80c657c81ff4c32081b78a0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/platform_macros.h"
+          },
+          "hashes": {
+            "md5": "aad1e2045332ecef5adb965d2e8e1a8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/port.h"
+          },
+          "hashes": {
+            "md5": "63ca8f9e17e735aba96df883359e5581"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/stringpiece.h"
+          },
+          "hashes": {
+            "md5": "4ec0467c8b231440ac87ee753b8ef638"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/hash.h"
+          },
+          "hashes": {
+            "md5": "01cbfa2abc6270b6b859ad7b90d83545"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/logging.h"
+          },
+          "hashes": {
+            "md5": "cbda01d5e659880e642aab17af7a3079"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/status.h"
+          },
+          "hashes": {
+            "md5": "a1f50ae42525a9227cded4e1ad09c731"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/port.h"
+          },
+          "hashes": {
+            "md5": "42aa9ff048c9f393f0ba97502e7542f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/arena.h"
+          },
+          "hashes": {
+            "md5": "027262bc5da0fd4fb47862d023bea048"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/arena_impl.h"
+          },
+          "hashes": {
+            "md5": "51b21f50505204ff59e47a0f135bef3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/arenastring.h"
+          },
+          "hashes": {
+            "md5": "050edb03bdd7eec4f6e3d86ca143d157"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/generated_message_table_driven.h"
+          },
+          "hashes": {
+            "md5": "e01bc3520d6cd596b40a96299c00260e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/map.h"
+          },
+          "hashes": {
+            "md5": "14bdada9de47d8f295612e0127d7c7da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/generated_enum_util.h"
+          },
+          "hashes": {
+            "md5": "0163ce52706e7b0bba47c00a520ea747"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/message_lite.h"
+          },
+          "hashes": {
+            "md5": "ef0308f13c443ec02d624743426e3a3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/metadata_lite.h"
+          },
+          "hashes": {
+            "md5": "8ad28a11a2d037e9d073a75a82cda580"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/once.h"
+          },
+          "hashes": {
+            "md5": "bddbab32ddcc16e28017bf23ffd3f93b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/map_type_handler.h"
+          },
+          "hashes": {
+            "md5": "98aea52421f0fd42195c6108b3a49c9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/io/zero_copy_stream.h"
+          },
+          "hashes": {
+            "md5": "76294f8924126a95d90e616d78da9164"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/implicit_weak_message.h"
+          },
+          "hashes": {
+            "md5": "415c1fa8c85255633651985153b6fede"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/casts.h"
+          },
+          "hashes": {
+            "md5": "8af5aba8972571fa72c31c6cdadc21c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/map_entry_lite.h"
+          },
+          "hashes": {
+            "md5": "31f87670466e5d88c6067f60b2766a05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/generated_message_util.h"
+          },
+          "hashes": {
+            "md5": "f49a143325974fec312bbdeaa852869f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/any.h"
+          },
+          "hashes": {
+            "md5": "cd9958d4d5dff5c026e575d0d4f57474"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/has_bits.h"
+          },
+          "hashes": {
+            "md5": "73b19491949f0d643503282771eccd8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/map_field_lite.h"
+          },
+          "hashes": {
+            "md5": "79de085728f8ab543821bba2bbb953e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/mutex.h"
+          },
+          "hashes": {
+            "md5": "9b807586df1abe53c5ce156c0eca6e52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/generated_enum_reflection.h"
+          },
+          "hashes": {
+            "md5": "adc41976fe90983c4d272feb5c5137d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/io/zero_copy_stream_impl_lite.h"
+          },
+          "hashes": {
+            "md5": "7f2cee4c6335c02f5b24c36350f533d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/callback.h"
+          },
+          "hashes": {
+            "md5": "ef2a5ae790f4ab3b102355f3ad6874bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/stubs/stl_util.h"
+          },
+          "hashes": {
+            "md5": "64fd7b559f45cdd75892a178160d72a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/message.h"
+          },
+          "hashes": {
+            "md5": "5e37cfbabf694cbef6e295606ec91a21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mybut/desktop/work-7/student.pb.h"
+          },
+          "hashes": {
+            "md5": "b83fa3923e0764342a6c35c314fffaa4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mybut/desktop/work-7/fullname.pb.h"
+          },
+          "hashes": {
+            "md5": "45511aaa41ab06324dab13f4c886f70e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/.conan/4edcf5/1/include/google/protobuf/wire_format.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "379a14cce242d9ca66034fe8da66c1f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mybut/desktop/work-7/studentsgroup.pb.cc"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "06210b74d264a0c56978e25dbe97f96a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/.conan/4edcf5/1/include/google/protobuf/reflection_ops.h"
+          },
+          "hashes": {
+            "md5": "f59c3849076564598f5d23d95d86f55a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mybut/desktop/work-7/student.pb.cc"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "2f33749eae86c12e4dca807c469ff15f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mybut/desktop/work-7/fullname.pb.cc"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d4016c800cd144bb415934b400899e5e"
+          }
+        }
+      ]
+    }
+  ]
+}

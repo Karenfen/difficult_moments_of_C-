@@ -1,0 +1,4 @@
+﻿  work-7.cpp
+C:\Users\mybut\Desktop\work-7\work-7.cpp(214,32): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\mybut\Desktop\work-7\work-7.cpp(123): warning C4715: StudentsGroup::GetAverageScore: значение возвращается не при всех путях выполнения
+  work-7.vcxproj -> C:\Users\mybut\Desktop\work-7\x64\Debug\work-7.exe

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "student.proto";
+
+package students;
+
+message StudentsGroup
+{
+	repeated Student students = 1;
+}
